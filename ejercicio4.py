@@ -1,11 +1,10 @@
 from ast import main
 
 def resultado():
-    suma="2"+10
     try:
-        suma
+        suma="2"+10
     except TypeError:
-        return"No se puede sumar un string a un int"
+        return"No se puede sumar un string a un int."
 
 print(resultado()) 
 
