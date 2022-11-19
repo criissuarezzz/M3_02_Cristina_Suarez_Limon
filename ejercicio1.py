@@ -7,8 +7,7 @@ def division(numerador, denominador):
     except ZeroDivisionError:
         return("Error. No es posible la división de un número entre 0.")
 
-def main():         #Creamos la función main
-    print(division(7,0))
+print(division(7,0))
 
 if __name__=="main__":
     main()
